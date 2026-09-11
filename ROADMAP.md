@@ -3,7 +3,7 @@
 ## Phase 1: MVP (Minimum Viable Product)
 The goal of this phase is a fully client-side, read-only market visualizer.
 
-- [ ] **Step 1: Base Skeleton & Dependency Setup**
+- [x] **Step 1: Base Skeleton & Dependency Setup**
   - Init Tauri + Vite project.
   - Clean out boilerplate CSS/JS.
   - Verify Void Linux incremental build works.

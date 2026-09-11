@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSRS Market Viewer</title>
+    <style>
+      :root {
+        --bg-color: #0d0d0d;
+        --fg-color: #00ff41;
+        --border-color: #333333;
+      }
+      body {
+        background-color: var(--bg-color);
+        color: var(--fg-color);
+        font-family: "Courier New", Courier, monospace;
+        margin: 0;
+        padding: 1rem;
+        overflow: hidden;
+      }
+      #app {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        height: 95vh;
+        border: 1px solid var(--border-color);
+        padding: 1rem;
+      }
+      h1 { font-size: 1.2rem; text-transform: uppercase; margin-top: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h1>OSRS_GE :: Void Linux Node</h1>
+      <div id="market-grid">Awaiting connection...</div>
+    </div>
+  </body>
+</html>
