@@ -22,3 +22,10 @@
 * **Scope Strictness:** Implement exactly one feature per session. Do not hallucinate future scope.
 * **Zsh Safety:** All automated implementation scripts must use quoted heredocs (`cat << 'EOF' > filepath`) to prevent zsh from prematurely expanding variables.
 * **Zero-Friction Execution:** Every response must end with a single, copy-pasteable terminal block that writes the necessary files and immediately executes a test or build command (e.g., `cargo tauri dev`).
+
+## Context & State Management:
+
+*  Always read ROADMAP.md before generating code.
+*  Identify the first unchecked box ([ ]). That is the current active feature.
+* Do not jump ahead. Only write code for the current active feature.
+* When providing your final terminal block, include a sed command or instructions to update the ROADMAP.md checkbox  	from [ ] to [x] for the completed feature, so it is included in the final git commit.
